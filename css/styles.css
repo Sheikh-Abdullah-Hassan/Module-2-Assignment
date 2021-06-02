@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+/* styling heading */
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* paragraph designing */
+p {
+  background-color: #939799;
+  border: 1px solid black;
+  padding: 25px 5px 5px 5px;
+  float: left;
+  width: 30.66%;
+  position: relative;
+}
+.p1 {
+  margin: 0 2% 2% 2%;
+}
+.p2 {
+  margin: 0 2% 2% 0;
+}
+.p3 {
+  margin: 0 2% 0 0;
+}
+/* span designing */
+span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55px;
+  text-align: center;
+  padding: 3px 0 3px 0;
+  border: 1px solid black;
+  font-weight: 600;
+}
+.s1 {
+  background-color: rgb(245, 119, 108);
+}
+.s2 {
+  color: white;
+  background-color: rgb(218, 53, 75);
+}
+.s3 {
+  background-color: rgb(238, 236, 101);
+}
+/* media query for large website */
+@media (min-width: 992px) {
+  .p1 {
+    width: 30.66%;
+  }
+  .p2 {
+    width: 30.66%;
+  }
+  .p3 {
+    width: 30.66%;
+  }
+}
+/* media query for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .p1 {
+    width: 47%;
+  }
+  .p2 {
+    width: 47%;
+  }
+  .p3 {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+/* media query for small devices */
+@media (max-width: 767px) {
+  .p1 {
+    width: 96%;
+  }
+  .p2 {
+    width: 96%;
+    margin-left: 2%;
+  }
+  .p3 {
+    width: 96%;
+    margin-left: 2%;
+  }
+}
